@@ -2,8 +2,8 @@
 __pycache__
 
 # PyCharm stuffs
-.idea*
-.cache*
+.idea/
+.cache/
 
 # Packages
 *.egg

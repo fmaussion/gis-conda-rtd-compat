@@ -9,11 +9,11 @@ dependencies:
   - matplotlib
   - pandas
   - geopandas
-  - Pillow=3.0.0  # because RTD installs this version anyway
+  - Pillow
   - netCDF4
   - descartes
   - pyproj
   - cartopy
   - rasterio
   - ipython
-  - sphinx=1.3.5  # because RTD installs this version anyway
+  - sphinx
