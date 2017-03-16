@@ -1,0 +1,24 @@
+*.py[cod]
+__pycache__
+
+# PyCharm stuffs
+.idea*
+.cache*
+
+# Packages
+*.egg
+*.egg-info
+eggs
+
+# specific
+*.html
+build/
+docs/*-gen.rst
+docs/_build
+docs/_build_html
+docs/generated
+docs/_sources
+docs/_images
+docs/.doctrees
+docs/auto_examples
+docs/modules
