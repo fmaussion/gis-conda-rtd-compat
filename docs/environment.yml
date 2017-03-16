@@ -3,17 +3,14 @@ channels:
   - conda-forge
 dependencies:
   - python=3.5
-  - numpy
-  - scipy
-  - gdal
-  - matplotlib
-  - pandas
-  - geopandas
-  - Pillow=3.0.0
-  - netCDF4
-  - descartes
-  - pyproj
+  - numpy=1.12.0
+  - scipy=0.18.1
+  - geopandas=0.2.1  # let geopandas install mpl, pandas, gdal
+  - netCDF4=1.2.7
+  - scikit-image=0.12.3
   - cartopy
-  - rasterio
-  - ipython
+  - krb5
+  - rasterio=1.0a7
+  - numpydoc
+  - ipython=5.3.0
   - sphinx
