@@ -9,7 +9,7 @@ dependencies:
   - matplotlib
   - pandas
   - geopandas
-  - Pillow
+  - Pillow=3.0.0
   - netCDF4
   - descartes
   - pyproj
