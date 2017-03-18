@@ -1,9 +1,8 @@
 import sys
 __version__ = '0.0.1'
 
-print("python version:", sys.version)
 print("python exec:", sys.executable)
-
+print("python version:", sys.version)
 try:
     import IPython
     print("ipython: %s, %s" % (IPython.__version__, IPython.__file__))
@@ -57,6 +56,11 @@ try:
 except ImportError:
     print("no pyproj")
 try:
+    import cartopy
+    print("cartopy: %s, %s" % (cartopy.__version__, cartopy.__file__))
+except ImportError:
+    print("no cartopy")
+try:
     import netCDF4
     print("netCDF4: %s, %s" % (netCDF4.__version__, netCDF4.__file__))
 except ImportError:
@@ -66,3 +70,8 @@ try:
     print("skimage: %s, %s" % (skimage.__version__, skimage.__file__))
 except ImportError:
     print("no skimage")
+try:
+    import sphinx
+    print("sphinx: %s, %s" % (sphinx.__version__, sphinx.__file__))
+except ImportError:
+    print("no sphinx")

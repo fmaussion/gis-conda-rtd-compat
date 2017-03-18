@@ -5,12 +5,10 @@ dependencies:
   - python=3.5
   - numpy
   - scipy
-  - gdal
   - matplotlib
   - scikit-image
-  - pandas
-  - geopandas
   - Pillow=3.0.0
+  - geopandas
   - netCDF4
   - descartes
   - pyproj
